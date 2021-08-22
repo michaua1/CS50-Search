@@ -1,0 +1,98 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+a {
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div > input {
+    border: 1px solid;
+    border-radius: 20px; 
+    border-color: lightgray;
+    font-size: 12pt;
+    height: 40px;
+    width: 400px;
+}
+
+div > input[type=text]:hover {
+    border: 1px solid lightgrey;
+    outline: none;
+    box-shadow: 1px 1px 3px lightgrey;
+  }
+  
+  div > input[type=text]:focus {
+    border: 1px solid lightgrey;
+    outline: none;
+    box-shadow: 1px 1px 3px lightgrey;
+  }
+
+  button {
+    font-size: 10pt;
+    border-radius: 5px; 
+    border: 1px solid;
+    border-color: white;
+    background-color: rgb(248, 248, 248);
+    padding: 8px;
+  }
+  
+  button:hover {
+    border-radius: 5px; 
+    border: 1px solid;
+    border-color: lightgray;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 1px 1px 3px lightgrey;
+  }
+
+  table {
+    width: 60%;
+  }
+  
+  th {
+    height: 40px;
+    width: fit-content;
+    font-size: medium;
+    font-weight: normal;
+  }
+
+td {
+    width: fit-content;
+    padding: 5px;
+    font-size: 10pt;
+}
+
+td > input {
+    border: 1px solid;
+    border-color: lightgray;
+    height: 30px;
+}
+
+.adv-input {
+    border: 1px solid;
+    border-color: lightgray;
+    font-size: 10pt;
+    height: 30px;
+    width: 500px;
+}
+.button-adv {
+    font-size: 8pt;
+    font-weight: bold;
+    border-radius: 2px; 
+    border: 1px solid;
+    color: white;
+    border-color: #4d90fe;
+    background-color: #4d90fe;
+    padding: 6px;
+  }
+  
+  .button-adv:hover {
+    border-radius: 5px; 
+    border: 1px solid;
+    border-color: #4d90fe;
+    background-color: #4d90fe;
+    border-color:  blue;
+  }
